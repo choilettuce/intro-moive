@@ -1,0 +1,20 @@
+.window {
+    background: coral;
+    width: 350px;
+    height: 250px;
+    
+    overflow: hidden;
+  }
+  
+  .flexbox {
+    display: flex;
+  }
+  
+  .img {
+    width: 350px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex: none;
+  }
