@@ -9,8 +9,8 @@ function Header() {
       <div className='logoBox'>
         <Link to="/" className='logo'><MovieIcon 
         sx={{ fontSize: 64 }} 
-        color="primary"/> 
-        <span className='logoText'>Lettuce의 영화소개</span >
+        color="#A24F63"/> 
+        <span className='logoText'><b>LETFLIX</b></span >
         </Link>
       </div>  
       <div className='Login'>
