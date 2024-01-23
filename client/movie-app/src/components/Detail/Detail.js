@@ -19,6 +19,7 @@ function Detail(props) {
 
   useEffect(() => {
     getMovie();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
