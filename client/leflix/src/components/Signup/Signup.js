@@ -23,7 +23,7 @@ const Signup = () => {
         const response = await axios.post(process.env.REACT_APP_USER_URL + "/idCheck", {id : e.target.value});
         const validId = response.data.valid;
 
-        if (e.target.value != "") {
+        if (e.target.value !== "") {
             if (validId == true) {
                 console.log("유효한 아이디");
                 setWarning('sign_checking');
@@ -39,7 +39,7 @@ const Signup = () => {
     }
 
     const onChange = (e) => {
-        if (pw.current.value != e.target.value) {
+        if (pw.current.value !== e.target.value) {
             console.log('되는지?')
             setWarning('sign_warning');
             setText('비밀번호가 다릅니다.');
