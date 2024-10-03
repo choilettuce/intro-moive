@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/intro-moive/static/css/main.abac2bc3.css",
+    "main.js": "/intro-moive/static/js/main.1531196c.js",
+    "index.html": "/intro-moive/index.html",
+    "main.abac2bc3.css.map": "/intro-moive/static/css/main.abac2bc3.css.map",
+    "main.1531196c.js.map": "/intro-moive/static/js/main.1531196c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abac2bc3.css",
+    "static/js/main.1531196c.js"
+  ]
+}
